@@ -10,7 +10,11 @@ To install locally without pip, run
 
 For publishing, see [poetry instructions](https://typer.tiangolo.com/tutorial/package/#try-your-cli-program).
 
-The default cli name is `monkfish-cli`. Change this to your desired cli name.
+The default cli name is `monkfish-cli`. Change this to your desired cli name in the folowing:
+
+- `monkfish_cli` folder name
+- `/monkfish_cli/__main__.py` variable `prog_name` for usage as a python module
+- `pyproject.toml`
 
 ## Usage
 
