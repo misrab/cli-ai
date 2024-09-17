@@ -5,7 +5,7 @@ from . import models
 app = typer.Typer()
 
 @app.command()
-def translate(text: str):
+def translate(text: str = typer.Argument(...)):
     result = models.translate(text)
     typer.echo(result)
 

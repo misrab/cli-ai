@@ -11,6 +11,8 @@ ai = "ai.main:app"
 [tool.poetry.dependencies]
 python = "^3.12"
 typer = "^0.12.5"
+transformers = "^4.44.2"
+torch = "^2.4.1"
 
 
 [build-system]
