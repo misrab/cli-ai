@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "monkfish-cli"
+version = "0.1.0"
+description = ""
+authors = ["misrab <faizullah.misrab@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+monkfish-cli = "monkfish_cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
