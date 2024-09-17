@@ -6,7 +6,7 @@ authors = ["misrab <monkfish328@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-monkfish-cli = "ai.main:app"
+ai = "ai.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.12"
