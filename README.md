@@ -1,3 +1,7 @@
+# cli-py
+
+A template for a python cli using typer and poetry.
+
 ## Setup
 
 To install locally without pip, run
