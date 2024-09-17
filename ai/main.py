@@ -9,7 +9,10 @@ def translate(text: str):
     result = models.translate(text)
     typer.echo(result)
 
-
+# to enable subcommands while we only have one
+@app.command()
+def dummy():
+    return
 
 # @app.command()
 # def hello(name: str):
