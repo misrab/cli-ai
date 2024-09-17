@@ -3,4 +3,4 @@
 # `python -m monkfish_cli --help`
 
 from .main import app
-app(prog_name="monkfish-cli")
+app(prog_name="ai")

@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "monkfish-cli"
+name = "ai"
 version = "0.1.0"
 description = ""
-authors = ["misrab <faizullah.misrab@gmail.com>"]
+authors = ["misrab <monkfish328@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.scripts]
-monkfish-cli = "monkfish_cli.main:app"
+monkfish-cli = "ai.main:app"
 
 [tool.poetry.dependencies]
 python = "^3.12"
